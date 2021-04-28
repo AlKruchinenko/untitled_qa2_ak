@@ -36,6 +36,8 @@ public class HomeWork {
        // browserWindow.findElement(LOCATOR_BY_LOGO).click();
         browserWindow.findElement(LOGO_BY_XPATH3).click();
         //browserWindow.findElement(LOCATOR_BY_XPATHH).click();
+
+        //comment for git
     }
 }
 
