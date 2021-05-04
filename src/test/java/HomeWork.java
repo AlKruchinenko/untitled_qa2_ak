@@ -22,7 +22,7 @@ public class HomeWork {
     //private final By LOCATOR_BY_XPATH = By.xpath("//*[contains(@text, list-article__headline)]");
     // private final By LOGO_BY_XPATH3 = By.xpath(".//*[contains(@class, 'list-article__meta-info flex flex--justify-content-start flex--align-items-center')]");
     private final By LOCATOR_BY_XPATHH = By.xpath(".//img[@src = '/v5/img/icons/comment-v2.svg']");
-    private final By LOCATOR_BY_LOGO = By.xpath("//img[@src = 'https://f.pmo.ee/logos/4214/962e20cfa3f41626c1009714b2a906e0.svg']");
+    private final By LOCATOR_BY_LOGO = By.xpath("//*[contains(@class, 'flex header-logo flex')]");
     private final By LOCATOR_BY_LENG = By.xpath(".//*[contains(@href,  'https://rus.tvnet.lv/')]");
 
     @Test
@@ -60,7 +60,7 @@ public class HomeWork {
         //System.out.println("Page title is:" + meta );
 
 
-        System.out.println("LOCATOR_BY_HEADNAME1");
+        //System.out.println("");
     }
 
 
